@@ -1,0 +1,436 @@
+CRITICAL - 2023-10-10 03:28:39 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 03:28:54 --> Undefined constant "App\Controllers\session"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:30:48 --> The route for "index" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('index')
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:31:19 --> The route for "index.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('index.php')
+ 2 APPPATH\Controllers\Home.php(10): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:48:42 --> Attempt to read property "nome_usuario" on null
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on null', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:51:43 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:53:28 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:55:13 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:55:15 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:55:16 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:55:22 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:55:51 --> Attempt to read property "nome" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:56:27 --> The route for "login.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('login.php')
+ 2 APPPATH\Controllers\Home.php(22): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 03:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 03:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 03:57:34 --> Attempt to read property "nome" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:07:59 --> Attempt to read property "nome" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(30): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:10:38 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(30): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:13:55 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(30): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:16:43 --> Call to a member function get() on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\index.php(38): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(12): view('adm/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:20:29 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Controllers\sbadm.php on line 13.
+ 1 APPPATH\Controllers\sbadm.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\sbadm.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:21:06 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Controllers\sbadm.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\sbadm.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\sbadm')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\sbadm')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\sbadm', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:21:40 --> Call to a member function get() on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\index.php(38): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(12): view('adm/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:24:01 --> syntax error, unexpected single-quoted string "nome_usuario", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 4 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:24:26 --> Call to a member function get() on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\tables.php(43): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:24:41 --> Undefined variable $nome_usuario
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome_usuario', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:24:52 --> syntax error, unexpected single-quoted string "nome_usuario", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 4 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:25:13 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\tables.php(43): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:31:14 --> Attempt to read property "nome_usuario" on array
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 APPPATH\Views\adm\topbar.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome_usuario" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php', 173)
+ 2 APPPATH\Views\adm\index.php(38): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 6 APPPATH\Controllers\sbadm.php(12): view('adm/index.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 04:33:07 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\adm\topbar.php on line 173.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(12): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 04:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 04:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 14:23:43 --> The route for "login.php" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('login.php')
+ 2 APPPATH\Controllers\Home.php(22): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 14:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 14:31:44 --> Attempt to read property "ativo" on array
+in APPPATH\Views\adm\tables.php on line 118.
+ 1 APPPATH\Views\adm\tables.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ativo" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 14:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 14:32:05 --> Attempt to read property "active" on array
+in APPPATH\Views\adm\tables.php on line 118.
+ 1 APPPATH\Views\adm\tables.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "active" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(16): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-10 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-10 14:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,663 @@
+CRITICAL - 2023-10-08 00:26:05 --> Undefined constant "sidebar"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:26:34 --> Undefined constant "adm"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:27:01 --> Undefined constant "sidebar"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:27:31 --> Undefined constant "sidebar"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:28:01 --> Undefined constant "adm"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:28:39 --> Undefined constant "sidebar"
+in APPPATH\Views\adm\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/index.php', [], true)
+ 4 APPPATH\Controllers\sbadm.php(9): view('adm/index.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 00:49:02 --> syntax error, unexpected integer "404"
+in APPPATH\Controllers\sbadm.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\sbadm.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\sbadm')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\sbadm')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\sbadm', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:06:49 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:27 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:29 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:30 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:30 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:30 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:30 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:47 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:48 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:08:48 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:09:18 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:09:19 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:09:19 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:09:19 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:09:32 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:10:18 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:10:57 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 01:11:19 --> Undefined variable $carros
+in APPPATH\Views\adm\tables.php on line 262.
+ 1 APPPATH\Views\adm\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables.php', [], true)
+ 5 APPPATH\Controllers\sbadm.php(17): view('adm/tables.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:15:33 --> Undefined array key "id"
+in APPPATH\Controllers\atualizar.php on line 20.
+ 1 APPPATH\Controllers\atualizar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:16:02 --> Undefined array key "id"
+in APPPATH\Controllers\atualizar.php on line 19.
+ 1 APPPATH\Controllers\atualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:16:11 --> Undefined array key "id"
+in APPPATH\Controllers\atualizar.php on line 19.
+ 1 APPPATH\Controllers\atualizar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:18:46 --> Too few arguments to function App\Controllers\atualizar::altera(), 0 passed in C:\xampp\htdocs\crud\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\atualizar.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->altera()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:19:10 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\atualizar.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\atualizar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\atualizar')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\atualizar', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:19:22 --> Undefined variable $carros
+in APPPATH\Controllers\atualizar.php on line 13.
+ 1 APPPATH\Controllers\atualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $carros', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->altera()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:19:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\adm\atualizar.php on line 250.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/atualizar.php', [], true)
+ 4 APPPATH\Controllers\atualizar.php(13): view('adm/atualizar.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->altera()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:56:08 --> Undefined global variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:56:50 --> Undefined variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:57:05 --> Undefined global variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:57:38 --> syntax error, unexpected variable "$baseurl", expecting "function" or "const"
+in APPPATH\Controllers\BaseController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 APPPATH\Controllers\ver.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ver')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ver')
+ 8 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ver', true)
+ 9 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:57:54 --> Undefined global variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:58:16 --> Undefined variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:58:44 --> Undefined global variable $baseurl
+in APPPATH\Views\adm\sidebar.php on line 17.
+ 1 APPPATH\Views\adm\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseurl', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php', 17)
+ 2 APPPATH\Views\adm\tables.php(37): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 6 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 02:59:58 --> syntax error, unexpected variable "$GLOBALS", expecting "function" or "const"
+in APPPATH\Controllers\BaseController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 APPPATH\Controllers\ver.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ver')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ver')
+ 8 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ver', true)
+ 9 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:00:07 --> syntax error, unexpected token "[", expecting "," or ";"
+in APPPATH\Controllers\BaseController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 APPPATH\Controllers\ver.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\ver.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ver')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ver')
+ 8 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ver', true)
+ 9 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:06:20 --> Undefined array key "id"
+in APPPATH\Controllers\atualizar.php on line 20.
+ 1 APPPATH\Controllers\atualizar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:06:29 --> Undefined array key "id"
+in APPPATH\Controllers\atualizar.php on line 20.
+ 1 APPPATH\Controllers\atualizar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:33:37 --> syntax error, unexpected double-quote mark, expecting "-" or identifier or variable or number
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:38:02 --> syntax error, unexpected double-quote mark, expecting "-" or identifier or variable or number
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:38:59 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:45:33 --> Undefined global variable $baseURL
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseURL', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:53:11 --> Undefined array key "adm"
+in APPPATH\Controllers\usuario.php on line 18.
+ 1 APPPATH\Controllers\usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "adm"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\usuario.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\usuario->criausuario()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:57:36 --> Undefined global variable $_SESSION
+in APPPATH\Views\adm\tables.php on line 36.
+ 1 APPPATH\Views\adm\tables.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:58:35 --> Array to string conversion
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 APPPATH\Views\adm\tables.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:58:48 --> Undefined constant "nome"
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 4 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:58:58 --> Array to string conversion
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 APPPATH\Views\adm\tables.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:59:24 --> syntax error, unexpected single-quoted string "nome", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 3 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:59:33 --> Attempt to read property "nome" on array
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 APPPATH\Views\adm\tables.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on array', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:59:49 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 3 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 03:59:57 --> syntax error, unexpected single-quoted string "nome", expecting "]"
+in APPPATH\Views\adm\tables.php on line 37.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 3 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:14:19 --> Invalid file: "ad,/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ad,/login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ad,/login.php', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('ad,/login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:23:13 --> Undefined array key "nome"
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:23:55 --> Undefined array key "nome"
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:24:19 --> Undefined global variable $_SESSION
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:26:07 --> Undefined global variable $_SESSION
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:26:42 --> Undefined global variable $_SESSION
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:32:21 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\sbadm.php on line 9.
+ 1 APPPATH\Controllers\sbadm.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\sbadm.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:33:06 --> session_start(): Argument #1 ($options) must be of type array, string given
+in APPPATH\Controllers\sbadm.php on line 9.
+ 1 APPPATH\Controllers\sbadm.php(9): session_start('use')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:37:24 --> Undefined array key "usuario"
+in APPPATH\Controllers\sbadm.php on line 9.
+ 1 APPPATH\Controllers\sbadm.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\sbadm.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sbadm->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sbadm))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 04:59:46 --> Undefined array key "usuario"
+in APPPATH\Views\adm\tables.php on line 251.
+ 1 APPPATH\Views\adm\tables.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php', 251)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\adm\\tables.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('adm/tables', [], true)
+ 5 APPPATH\Controllers\ver.php(14): view('adm/tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

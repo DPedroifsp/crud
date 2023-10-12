@@ -1,0 +1,399 @@
+CRITICAL - 2023-09-30 16:11:33 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:12:00 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:12:24 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:13:24 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:14:14 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:14:34 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:15:18 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 12.
+ 1 APPPATH\Controllers\remover.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:15:35 --> syntax error, unexpected variable "$tabela"
+in APPPATH\Controllers\remover.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\remover')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\remover')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\remover', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:16:10 --> Undefined variable $msg
+in APPPATH\Controllers\remover.php on line 19.
+ 1 APPPATH\Controllers\remover.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msg', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 16:17:41 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 13.
+ 1 APPPATH\Config\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\crud\\app\\Config\\Routes.php', 13)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\crud\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:02:43 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:03:07 --> Undefined array key "id_carro"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carro"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:08:19 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 13.
+ 1 APPPATH\Controllers\remover.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:08:40 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 14.
+ 1 APPPATH\Controllers\remover.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:09:17 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 14.
+ 1 APPPATH\Controllers\remover.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:10:27 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 14.
+ 1 APPPATH\Controllers\remover.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:13:04 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:19:28 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 19:19:35 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'concessionaria', 3306, '', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crud\app\Controllers\ver.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(919): App\Controllers\ver->index()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\crud\app\Controllers\ver.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\crud\system\CodeIgniter.php(919): App\Controllers\ver->index()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-30 19:19:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `carros`', [], false)
+ 3 APPPATH\Controllers\ver.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ver->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ver))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:20:57 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:03 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:04 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:04 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:05 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:16 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:21:18 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:24:01 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 19:24:44 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'concessionaria', 3306, '', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\crud\app\Controllers\criar.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(919): App\Controllers\criar->cadastrar()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\criar))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#3 C:\xampp\htdocs\crud\app\Controllers\criar.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\crud\system\CodeIgniter.php(919): App\Controllers\criar->cadastrar()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\criar))
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-30 19:24:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `carros` (`modelo`, `marca`, `cor`, `ano`) VALUES (:modelo:, :marca:, :cor:, :ano:)', [...], false)
+ 3 APPPATH\Controllers\criar.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\criar->cadastrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\criar))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:30:07 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 11.
+ 1 APPPATH\Controllers\remover.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:32:52 --> Undefined variable $id
+in APPPATH\Controllers\remover.php on line 15.
+ 1 APPPATH\Controllers\remover.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:33:42 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:35:15 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:36:01 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:36:16 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:41:49 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 10.
+ 1 APPPATH\Controllers\remover.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:43:34 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 17.
+ 1 APPPATH\Controllers\remover.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->remove()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:44:02 --> Undefined array key "id"
+in APPPATH\Controllers\remover.php on line 17.
+ 1 APPPATH\Controllers\remover.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\remover.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->remove()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:48:31 --> Undefined variable $link
+in APPPATH\Views\remover.php on line 6.
+ 1 APPPATH\Views\remover.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('remover', [], true)
+ 5 APPPATH\Controllers\remover.php(12): view('remover')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:50:21 --> Undefined variable $link
+in APPPATH\Views\remover.php on line 6.
+ 1 APPPATH\Views\remover.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('remover', [], true)
+ 5 APPPATH\Controllers\remover.php(12): view('remover')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 19:50:36 --> Undefined variable $link
+in APPPATH\Views\remover.php on line 6.
+ 1 APPPATH\Views\remover.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\crud\\app\\Views\\remover.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('remover', [], true)
+ 5 APPPATH\Controllers\remover.php(12): view('remover')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\remover->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\remover))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 20:12:27 --> Undefined array key "ano"
+in APPPATH\Controllers\atualizar.php on line 21.
+ 1 APPPATH\Controllers\atualizar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ano"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->at()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 20:12:57 --> Undefined array key "ano"
+in APPPATH\Controllers\atualizar.php on line 21.
+ 1 APPPATH\Controllers\atualizar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ano"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->at()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 20:13:19 --> Undefined array key "ano"
+in APPPATH\Controllers\atualizar.php on line 21.
+ 1 APPPATH\Controllers\atualizar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ano"', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->at()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 20:13:57 --> Undefined variable $novosDados
+in APPPATH\Controllers\atualizar.php on line 23.
+ 1 APPPATH\Controllers\atualizar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $novosDados', 'C:\\xampp\\htdocs\\crud\\app\\Controllers\\atualizar.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->at()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 20:14:18 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `carros`...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `carros`...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `carros`...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `carros`...', Array, false)
+#4 C:\xampp\htdocs\crud\app\Controllers\atualizar.php(23): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(919): App\Controllers\atualizar->at()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 20:14:18 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `carros` SET `modelo` = :modelo:, `marca` = :marca:, `cor` = :cor:, `ano` = :ano:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Controllers\atualizar.php(23): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\atualizar->at()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\atualizar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
